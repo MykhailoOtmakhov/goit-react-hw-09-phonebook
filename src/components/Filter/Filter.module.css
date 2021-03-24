@@ -1,0 +1,10 @@
+.label {
+  padding-right: 10px;
+  font-size: large;
+  font-style: italic;
+}
+
+.input {
+  margin: 10px;
+  border: aqua 2px solid;
+}

@@ -1,0 +1,18 @@
+.text{
+    font-size: large;
+    color: ivory;
+}
+
+.notificationContainer{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    border: solid 1px inherit;
+    border-radius: 8px;
+}

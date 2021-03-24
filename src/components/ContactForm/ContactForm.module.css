@@ -1,0 +1,23 @@
+.label {
+  font-size: large;
+  font-style: italic;
+}
+
+.input {
+  display: block;
+  margin: 10px 0;
+  border: aqua 2px solid;
+}
+
+.button {
+  border: blue 2px solid;
+  text-align: center;
+}
+
+.form{
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  border: solid 2px aqua;
+  width: 400px;
+}

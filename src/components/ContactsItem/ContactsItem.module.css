@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  width: 400px;
+  border: ridge 5px blueviolet;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: large;
+}
+
+.button {
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+  border: blue 2px solid;
+} 
+
