@@ -20,5 +20,6 @@ const getVisibleContacts = createSelector(
 export default {
     getLoading,
     getFilter,
+    getAllContacts,
     getVisibleContacts
 }
