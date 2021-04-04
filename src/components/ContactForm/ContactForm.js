@@ -15,15 +15,20 @@ export default function ContactForm() {
   const [message, setMessage] = useState('');
   const contacts = useSelector(contactsSelectors.getAllContacts)
 
-  const handleInputChangeName = useCallback(
-    evt => {
+    const handleInputChangeName = evt => 
       setName(evt.currentTarget.value)
-    },[])
-
-  const handleInputChangeNumber = useCallback(
-    evt => {
+ 
+  const handleInputChangeNumber = evt =>
       setNumber(evt.currentTarget.value)
-    },[])
+  // const handleInputChangeName = useCallback(
+  //   evt => {
+  //     setName(evt.currentTarget.value)
+  //   },[])
+
+  // const handleInputChangeNumber = useCallback(
+  //   evt => {
+  //     setNumber(evt.currentTarget.value)
+  //   },[])
 
     const getNoty = (note) => {
       setMessage(note);

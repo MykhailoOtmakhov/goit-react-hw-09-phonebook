@@ -7,9 +7,10 @@ import contactsSelectors from '../../redux/contacts/contacts-selectors'
 export default function Filter (){
     const value = useSelector(contactsSelectors.getFilter)
     const dispatch = useDispatch();
-    const onChange = useCallback(evt => {
-        dispatch(contactsActions.changeFilter(evt.target.value))
-    }, [dispatch]);
+    // const onChange = useCallback(evt => {
+    //     dispatch(contactsActions.changeFilter(evt.target.value))
+    // }, [dispatch]);
+    const onChange = evt => dispatch(contactsActions.changeFilter(evt.target.value))
 
     return(
         <label
